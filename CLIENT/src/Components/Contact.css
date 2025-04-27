@@ -1,0 +1,35 @@
+.contact-container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .contact-header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .contact-header h1 {
+    margin: 0;
+    color: #2c3e50;
+  }
+  
+  .contact-main {
+    margin: 20px 0;
+  }
+  
+  .contact-section {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .contact-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-section ul li {
+    margin: 5px 0;
+  }

@@ -1,0 +1,115 @@
+/* .signup-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .signup-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .signup-form h2 {
+    color: green;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form form {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+  }
+  
+  .input-group small {
+    font-size: 10px;
+    color: gray;
+    margin-top: 3px;
+  }
+  
+  .create-account-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .google-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-link {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .login-link span {
+    color: green;
+    cursor: pointer;
+  }
+  
+  .signup-image {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .signup-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .signup-image .overlay {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: white;
+    text-align: left;
+    z-index: 2;
+  }
+  
+  .signup-image .overlay h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .signup-image .overlay span {
+    font-weight: bold;
+  }
+  
+  .signup-image .overlay p {
+    font-size: 16px;
+  }
+   */
