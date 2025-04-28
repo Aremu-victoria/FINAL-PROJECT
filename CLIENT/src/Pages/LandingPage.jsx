@@ -48,7 +48,7 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div className="hero-right" style={{marginTop:'-50px'}}>
-                    <img src="/landing.jpg " alt="Learning Illustration" />
+                    <img src="/heros.png " alt="Learning Illustration" />
                 </div>
             </section>
 
