@@ -10,8 +10,8 @@ const SignUp = () => {
     const handleSubmit = (e) =>{
         e.preventDefault()
         const allValues = {name, email, password}
-        const uri = 'https://final-projectserver-gray.vercel.app/signup'
-        axios.post(uri, allValues)
+        const url = 'https://final-projectserver-gray.vercel.app/signup'
+        axios.post(url, allValues)
         .then((res)=>{
           console.log(res.data);
           
