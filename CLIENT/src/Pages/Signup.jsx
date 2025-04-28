@@ -1,28 +1,26 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+
 const SignUp = () => {
+
     const [name, setname] = useState('')
     const [email, setemail] = useState('')
     const [password, setpassword] = useState('')
 
-    const submit = async (e) => {
-        e.preventDefault();
-        if (password.length < 8) {
-            alert("Password must be at least 8 characters long.");
-            return;
-        }
-        try {
-            const res = await axios.post('http://localhost:4000/signup', {
-                name,
-                email,
-                password,
-            });
-            console.log(res.data); 
-        } catch (error) {
-            console.error(error); 
-        }
-    };
-    
+    const handleSubmit = (e) =>{
+        e.preventDefault()
+        const allValues = {name, email, password}
+        const uri = 'http://localhost:4000/signup'
+        axios.post(uri, allValues)
+        .then((res)=>{
+          console.log(res.data);
+          
+        })
+        .catch((err)=>{
+          console.log(err);
+          
+        })
+      }
     return (
         <div className="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
             <div className="row w-100">
@@ -32,7 +30,7 @@ const SignUp = () => {
                         <button className="btn btn-success w-100">Sign Up</button>
                     </h2>
 
-                    <form className="w-75" onSubmit={submit}>
+                    <form className="w-75" onSubmit={handleSubmit}>
                         <div className="mb-3">
                             <label className="form-label">Name</label>
                             <input type="text" className="form-control" 
@@ -58,7 +56,7 @@ const SignUp = () => {
                             <i className="fab fa-google"></i> Sign up with Google
                         </button>
                         <p className="text-center mt-2">
-                            Already have an account? <a href="/login" type="submit">Log In</a>
+                            Already have an account? <a href="/login" type='submit'>Log In</a>
                         </p>
                     </form>
                 </div>
