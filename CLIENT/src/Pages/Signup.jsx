@@ -64,7 +64,7 @@ const SignUp = () => {
                 <div className="col-md-6 d-flex align-items-center justify-content-center position-relative overflow-hidden rounded-4 p-4" style={{ height: '100vh' }}>
 
                     <img
-                        src="/public/landing.jpg"
+                        src="landing.jpg"
                         alt="Background"
                         className="position-absolute w-100 h-100"
                         style={{ objectFit: 'cover', opacity: 0.4 }}
