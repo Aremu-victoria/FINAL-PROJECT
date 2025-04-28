@@ -2,6 +2,7 @@ import React from 'react';
 import '../Components/LandingPage.css';
 import { Link } from 'react-router-dom';
 
+
 const LandingPage = () => {
     return (
         <div className="landing-page">
@@ -43,7 +44,7 @@ const LandingPage = () => {
                         </div>
                         <div className='search-btns' style={{ marginTop: '20px' }}>
                         <button className="get-started-btn">Get Started</button> 
-                    <button className="sign-up-btn">Sign Up</button>
+                <Link to="/signup" > <button className="sign-up-btn">Sign Up</button> </Link>
                     </div>
                 </div>
                 <div className="hero-right" style={{marginTop:'-50px'}}>
