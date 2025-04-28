@@ -10,7 +10,7 @@ const SignUp = () => {
     const handleSubmit = (e) =>{
         e.preventDefault()
         const allValues = {name, email, password}
-        const url = 'https://final-projectserver-gray.vercel.app/signup'
+        const url = 'https://final-project-3-fvwm.onrender.com/signup'
         axios.post(url, allValues)
         .then((res)=>{
           console.log(res.data);
