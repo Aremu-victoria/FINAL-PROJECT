@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const accounts = require('./Models/UserModel');
+const accounts = require('./models/UsersModel')
 const port = process.env.port   || 5000;
 const URI = process.env.uri || undefined;
 app.use(express.json());
