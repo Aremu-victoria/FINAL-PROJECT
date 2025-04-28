@@ -34,6 +34,8 @@ const LandingPage = () => {
 
 
             <section className="hero">
+                <div className='row'>
+                <div className='col-12 col-md-6 my-5'>
                 <div className="hero-left">
                     <h1 style={{ color: '#08620e' }}>Upload Educational <span style={{color:'#08620e'}}> <br />Resources</span></h1>
                     <p style={{ color: '#08620e' }}>Search and download <br /> educational materials</p>
@@ -47,8 +49,12 @@ const LandingPage = () => {
                 <Link to="/signup" > <button className="sign-up-btn">Sign Up</button> </Link>
                     </div>
                 </div>
+                </div>
+                <div className='col-12 col-md-6 my-5'>
                 <div className="hero-right" style={{marginTop:'-50px'}}>
-                    <img src="/heros.png " alt="Learning Illustration" />
+                    <img src="/heros.png " alt="Learning Illustration" className='hero' />
+                </div>
+                </div>
                 </div>
             </section>
 
