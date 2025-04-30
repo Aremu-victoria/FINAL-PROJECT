@@ -1,0 +1,47 @@
+.footer {
+    background: green;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-left, .footer-center, .footer-right {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer-left p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .footer-center p {
+    line-height: 1.6;
+  }
+  
+  .footer-right .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons i {
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons i:hover {
+    transform: scale(1.2);
+  }
+  
+  .footer div:last-child {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer div:last-child p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
