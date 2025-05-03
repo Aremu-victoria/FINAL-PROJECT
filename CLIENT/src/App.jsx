@@ -6,6 +6,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Subject from './Pages/Subject'
+import Signin from './Pages/Signin'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact/>} />
         <Route path="/Subject" element={<Subject/>} />
+        <Route path="*" element={<Signin />} />
 
       </Routes>
   )
