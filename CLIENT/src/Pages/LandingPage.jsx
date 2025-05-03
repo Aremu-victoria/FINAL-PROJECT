@@ -12,7 +12,7 @@ const LandingPage = () => {
     <div className="landing-page">
       <section className="explore-category" >
         
-        <h2 style={{ width: '900px' }}>Explore by category</h2>
+        <h2 className='md-w-50 w-100'>Explore by category</h2>
         <div className="categories">
           <div className="category-card">
             <img src="https://cdn-icons-png.flaticon.com/512/2985/2985150.png" alt="Books" />
