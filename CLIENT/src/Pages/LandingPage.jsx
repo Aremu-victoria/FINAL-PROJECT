@@ -6,9 +6,10 @@ import '../Components/LandingPage.css';
 
 const LandingPage = () => {
   return (
-    <div className="landing-page">
-      <Navbar />
+    <>
+        <Navbar />
       <HeroSection />
+    <div className="landing-page">
       <section className="explore-category" >
         
         <h2 style={{ width: '900px' }}>Explore by category</h2>
@@ -48,6 +49,7 @@ const LandingPage = () => {
       </section>
       <Footer />
     </div>
+    </>
   );
 };
 

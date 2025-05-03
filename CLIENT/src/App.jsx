@@ -7,10 +7,14 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Subject from './Pages/Subject'
 import Signin from './Pages/Signin'
+import Footer from './Pages/Footer'
+import Navbar from './Pages/Navbar'
 
 function App() {
 
   return (
+    <div className="" style={{ overflow:'auto', height:'100vh' }}>
+
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/signup" element={<SignUp />} />
@@ -21,6 +25,8 @@ function App() {
         <Route path="*" element={<Signin />} />
 
       </Routes>
+
+    </div>
   )
 }
 

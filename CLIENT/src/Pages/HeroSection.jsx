@@ -12,7 +12,7 @@ const HeroSection = () => {
             <p style={{ color: '#08620e' }}>Search and download <br /> educational materials</p>
             <div className="search-input">
               <input type="text" placeholder="Search resources..." />
-              <i className="fa fa-search search-icon"></i>
+              <i className="fa fa-search search-icon" style={{marginLeft:'1px'}}></i>
             </div>
             <div className="search-btns" style={{ marginTop: '20px' }}>
               <button className="get-started-btn">Get Started</button>
@@ -22,7 +22,7 @@ const HeroSection = () => {
         </div>
         <div className="col-12 col-md-6 my-5">
           <div className="hero-right" style={{ marginTop: '-50px' }}>
-            <img src="/heros.png" alt="Learning Illustration" className="hero" />
+            <img src="/heros.png" alt="Learning Illustration" className="hero w-100" />
           </div>
         </div>
       </div>
